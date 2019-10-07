@@ -7,10 +7,10 @@ public class Test {
     public static void main(String[] args) {
         System.out.println("hello git project!!!");
         System.out.println("hel git project!!!");
-        System.out.println("hel git project!!!");
+        System.out.println("hegit project!!!");
         System.out.println("hlo git project!!!");
         System.out.println("hello git project!!!");
-        System.out.println("hello git project!!!");
+        System.out.println("lo git oject!!!");
 
 
     }
