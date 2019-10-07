@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b97ba55-cdcf-4e1c-ac1f-50a5a5b90324" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RAb5f4uh5OwhPryjjLLfodrgfe" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/libs/spring-aspects-4.3.10.RELEASE.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\my-project\spring4_day2\web\WEB-INF\libs" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.itheima.spring.demo1.test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SpringDemo3.demo1">
+    <configuration name="SpringDemo1.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring4_day2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.spring.demo1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.spring.demo1.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.spring.demo1.test.SpringDemo1" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDemo1.demo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring4_day2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.spring.demo1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.spring.demo1.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.spring.demo1.test.SpringDemo1" />
+      <option name="METHOD_NAME" value="demo2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDemo2.demo1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring4_day2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.spring.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.spring.demo2" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.spring.demo2.SpringDemo2" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDemo2.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring4_day2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.spring.demo1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.spring.demo1.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.spring.demo1.test.SpringDemo2" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDemo3.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring4_day2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.spring.demo3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.spring.demo3" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.spring.demo3.SpringDemo3" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringDemo3.demo1" />
+        <item itemvalue="JUnit.SpringDemo2.demo1 (1)" />
+        <item itemvalue="JUnit.SpringDemo2.demo1" />
+        <item itemvalue="JUnit.SpringDemo1.demo2" />
+        <item itemvalue="JUnit.SpringDemo1.demo1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b97ba55-cdcf-4e1c-ac1f-50a5a5b90324" name="Default Changelist" comment="" />
+      <created>1569112665682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569112665682</updated>
+      <workItem from="1569112670245" duration="16548000" />
+      <workItem from="1569228264938" duration="2687000" />
+      <workItem from="1569238986751" duration="19000" />
+      <workItem from="1569290739137" duration="694000" />
+      <workItem from="1569302793633" duration="698000" />
+      <workItem from="1569308426591" duration="597000" />
+      <workItem from="1569319067702" duration="2446000" />
+      <workItem from="1569332977274" duration="615000" />
+      <workItem from="1569378208823" duration="595000" />
+      <workItem from="1569393442186" duration="595000" />
+      <workItem from="1569413747636" duration="682000" />
+      <workItem from="1569456259120" duration="709000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.3.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+    <bean id="collectionBean" class="com.itheima.spring.demo5.impl.CollectionBean">
+        <property name="arr">
+           <list>
+               <value>"小明"</value>
+               <value>"胖虎"</value>
+               <value>"静香"</value>
+           </list>
+
+        </property>
+        <!--注入list集合-->
+        <property name="list">
+            <list>
+                <value>"程晨"</value>
+                <value>"你好"</value>
+            </list>
+        </property>
+
+        <property name="set">
+            <set>
+                <value>"sdsffs"</value>
+                <value>"sds2222fs"</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="aaa" value="ssss" ></entry>
+            </map>
+
+        </property>
+
+
+    </bean>
+
+
+
+</beans>

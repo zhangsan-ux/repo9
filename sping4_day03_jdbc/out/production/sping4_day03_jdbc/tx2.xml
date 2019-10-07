@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop.xsd
+	http://www.springframework.org/schema/tx
+	http://www.springframework.org/schema/tx/spring-tx.xsd">
+    <!--配置Service=================-->
+    <bean id="accountService" class="com.itheima.demo2.impl.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao"/>
+
+    </bean>
+    <!--配置Dao=================-->
+    <bean id="accountDao" class="com.itheima.demo2.impl.AccountDaoImpl">
+        <property name="dataSource" ref="dateSource"/>
+    </bean>
+    <!--配置连接池 和JDBC模板-->
+    <context:property-placeholder location="classpath:jdbc.properties" />
+    <!--配置c3po连接池-->
+    <bean id="dateSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${jdbc.driverClass}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+    <!--配置事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dateSource"></property>
+    </bean>
+    <!--配置事务的增强-->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="save*" propagation="REQUIRED" isolation="DEFAULT" />
+            <tx:method name="update*" propagation="REQUIRED"/>
+            <tx:method name="delete*" propagation="REQUIRED"/>
+            <tx:method name="find*" read-only="true"/>
+            <tx:method name="*" propagation="REQUIRED"/>
+        </tx:attributes>
+    </tx:advice>
+    <!--AOP配置-->
+    <aop:config>
+        <!--配置切入点-->
+        <aop:pointcut id="myPointCut1" expression="execution(* com.itheima.demo2.impl.AccountServiceImpl.*(..))"/>
+         <aop:advisor advice-ref="txAdvice" pointcut-ref="myPointCut1"></aop:advisor>
+    </aop:config>
+
+    </beans>
+
+
+
+
+
+
+
+
