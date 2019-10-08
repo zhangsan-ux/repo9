@@ -8,7 +8,7 @@ public class Test {
         System.out.println("hello git project!!!");
         System.out.println("hel git project!!!");
         System.out.println("hegit project!!!");
-        System.out.println("hlo git project!!!");
+        System.out.println("hello git project!!!");
         System.out.println("hello git project!!!");
         System.out.println("lo git oject!!!");
 
@@ -16,6 +16,9 @@ public class Test {
     }
     public  void test1(){
         System.out.println("你好");
+    }
+    public void test2(){
+        System.out.println("明天，你好");
     }
 
 
