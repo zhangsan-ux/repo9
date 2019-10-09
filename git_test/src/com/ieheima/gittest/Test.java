@@ -19,6 +19,11 @@ public class Test {
     }
     public void test2(){
         System.out.println("明天，你好");
+        System.out.println("明天，你好");
+        System.out.println("明天，你好");System.out.println("明天，你好");
+
+
+
     }
 
 
